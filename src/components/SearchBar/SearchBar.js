@@ -1,5 +1,6 @@
 import React from 'react';
-// import './SearchBar.css';
+import './SearchBar.css';
+import {Button} from 'react-bootstrap';
 
 class SearchBar extends React.Component {
     constructor(props){
@@ -60,14 +61,14 @@ class SearchBar extends React.Component {
       <div className="SearchBar">
         <div className="SearchBar-sort-options">
           <ul>
-            {this.renderSortByOptions()}
+            Sort Results By: {this.renderSortByOptions()}
           </ul>
         </div>
         <div className="SearchBar-fields">
           <input placeholder="Enter State Code (ex. NY)" onChange={this.handleLocationChange}/>
         </div>
         <div className="SearchBar-submit">
-          <button onClick={this.handleSearch}>Let's Go</button>
+          <Button variant="secondary" onClick={this.handleSearch}>Send</Button>
         </div>
       </div>
     );
