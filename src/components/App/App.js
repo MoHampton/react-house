@@ -23,7 +23,7 @@ class App extends React.Component {
   render() {
   return (
     <div className="App">
-      <SearchBar searchHouse={this.searchHouse}/>
+      {/*<SearchBar searchHouse={this.searchHouse}/>*/}
       <MemberList members={this.state.members}/> 
     </div>
   );
