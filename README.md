@@ -14,6 +14,8 @@ After reviewing the requirements, the intent was to build a react app to fetch/s
 * SASS - Assist with custom styling
 * Axios- Assist with HTTP promises
 
+[![Alt text](./public/App-Screenshot.png)](https://youtu.be/83GZrZJUccI)
+
 
 ## Download and Instructions
 
