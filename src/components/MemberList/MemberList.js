@@ -16,6 +16,7 @@ getMembers().then(memberData => setData(memberData.results));
 }, []);
 return (
 <div>
+<div id="MemberList">
 {data.map(m => 
     <Member 
         key={m._id}
@@ -26,6 +27,7 @@ return (
         hometown={m.addresses[0].addressLocality}
         />)
 }
+</div>
 </div>
 );
 }
