@@ -1,28 +1,16 @@
-.container-fluid {
-    /*padding: 0px !important;*/
-}
 #navbar {
-    max-height: 45px;
-        background: #092541 linear-gradient(to bottom,#20355a,#092541) repeat scroll 0 0;
-    -webkit-box-shadow: inset 0 0 1px #000;
-    box-shadow: inset 0 0 1px #000;
-    /*Temporary fix until responsiveness is updated*/
-    min-width: 100% !important;
-}
-
-#responsive-navbar-nav {
-    max-height: 45px;
-        background: #092541 linear-gradient(to bottom,#20355a,#092541) repeat scroll 0 0;
+    background: #092541 linear-gradient(to bottom,#20355a,#092541) repeat scroll 0 0;
     -webkit-box-shadow: inset 0 0 1px #000;
     box-shadow: inset 0 0 1px #000;
 }
 
 #nav-brand {
-    /*visibility: hidden;*/
+    font-size: 1rem !important;
 }
 
 .nav-link   {
     color: white !important;
+    padding: .05rem 1rem !important;
 }
 
 .navbar li {
@@ -31,8 +19,4 @@
 
  #logo {
      padding: 15px 0 15px 20px;
- }
-
- svg {
-     margin: 1.5em 0;
  }

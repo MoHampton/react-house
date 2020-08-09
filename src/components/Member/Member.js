@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import {Col, Card} from 'react-bootstrap';
 // import './Member.css';
 import flag from './flag.png';
 
@@ -8,6 +8,7 @@ import flag from './flag.png';
 export default function Member(props) {
       return (
 <div className="Member">
+    <Col>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={flag} alt="state flag" />
     <Card.Body>
@@ -19,5 +20,6 @@ export default function Member(props) {
         </Card.Text>
     </Card.Body>
     </Card>
+    </Col>
 </div>
 ) }

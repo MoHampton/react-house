@@ -35,7 +35,7 @@ class Header extends React.Component {
                 </Col>
                 </Row>
             </header>
-<Navbar id="navbar" expand="lg" variant="dark">
+<Navbar id="navbar" expand="lg" variant="dark" className="navbar-fixed-top">
     <Nav.Link >
     <li className="hidden-xs hidden-sm nav-append" id="star"><svg role="img" aria-label="Yellow Star" xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="8.5 -3.9 19 17.8"><polygon points="27.5 3 20.3 3 18.1 -3.9 15.8 3 8.5 3 14.4 7.1 12.2 13.9 18 9.7 23.9 13.9 21.7 7.1 " fill="#FFD262"></polygon></svg></li>
     </Nav.Link>
